@@ -10,7 +10,6 @@ public class Main {
         Item item = new Item();
         Modifier modifier = new Modifier();
         Payment payment = new Payment();
-        Printer printer = new Printer();
 
         int temp;
         String tempo;
