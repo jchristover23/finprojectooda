@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-	//Github Test
+
     public static void main(String[] args) {
         Customer customer = new Customer();
         Item item = new Item();
@@ -46,8 +46,8 @@ public class Main {
                 memberstatus = input.nextInt();
                 if (memberstatus == 1) {
                     System.out.print("Input Member ID : ");
-                    tempo = input.next();
-                    String Membername = customer.CheckMember(tempo);
+                    temp = input.nextInt();
+                    String Membername = customer.CheckMember(temp);
                     System.out.println("==============================");
                     System.out.println("WELLCOME BACK : "+ Membername);
                     discount+=2;
