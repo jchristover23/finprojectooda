@@ -54,6 +54,6 @@ public class Payment {
             case 2:
                 return true;
         }
-        return
+        return true;
     }
 }
