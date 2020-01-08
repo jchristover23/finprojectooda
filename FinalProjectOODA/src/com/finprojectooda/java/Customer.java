@@ -20,6 +20,6 @@ public class Customer {
         int new_member_id=Member_ID.size();
         Member_ID.add(new_member_id);
         Member_Name.add(new_member_name);
-        System.out.println("Member Has Been Successfully Created with ID"+new_member_id);
+        System.out.println("Member Has Been Successfully Created with ID : "+new_member_id);
     }
 }
